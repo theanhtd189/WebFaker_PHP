@@ -1,0 +1,45 @@
+.brand-logo {
+    display: flex!important;
+    justify-content: flex-start;
+    align-items: center;
+}
+button.stt-ok {
+    background: #84ed99;
+}
+button.stt-error {
+    background: #140803;
+}
+button.stt-ok>a {
+    text-decoration: none!important;
+    color: white!important;
+}
+button.stt-error>a {
+    text-decoration: none!important;
+    color: #ed2626!important;
+}
+td>a {
+    text-decoration: none!important;
+}
+.form-group>input[type='file']{
+    display: none;
+}
+.btn-up {
+    cursor: pointer;
+    padding: 9px 20px;
+    background: #1c1b1b;
+    margin: 15px 0;
+    border-radius: 5px;
+    color: white;
+}
+td>textarea
+{
+    color: #35cb2b;
+    background: black;
+    padding: 15px;
+    width: 100%;
+    border-color: #000000;
+    width: 100%;
+}
+td>textarea::-webkit-scrollbar {
+    width: 0;
+}
